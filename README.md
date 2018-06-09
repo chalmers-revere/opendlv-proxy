@@ -22,7 +22,7 @@ docker run --init --rm --net=host chalmersrevere/opendlv-proxy-amd64:v0.0.1 open
 docker run --init --rm --net=host chalmersrevere/opendlv-proxy-amd64:v0.0.1 opendlv-proxy --cid=112 --target-ip=192.168.0.1 --target-port=10000 --port=10000
 ```
 
-It also possible to combine several external conferences (on computers with IPs 192.168.0.2
+It is also possible to combine several external conferences (on computers with IPs 192.168.0.2
 and 192.168.0.3) into one central conference (on a computer with IP 192.168.0.1)
 by running the following setup:
 ```
