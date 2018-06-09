@@ -49,7 +49,7 @@ docker run --init --rm --net=host chalmersrevere/opendlv-proxy-amd64:v0.0.1 open
 ```
 
 The --sender-stamp-offset flag separates the message streams by appending the offset
-to any received message on that link. Furthermore, this feature also filters messages
+to any received message on that link. Furthermore, this feature also filters *sent* messages
 based on sender stamps, so in order to send a message to the external conference with
 CID 111, a message can be sent by adding 100 to the sender stamp.
 
