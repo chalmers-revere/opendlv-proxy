@@ -17,7 +17,7 @@ cmake_minimum_required(VERSION 3.2)
 
 project(opendlv-proxy)
 
-set(CLUON_COMPLETE cluon-complete-v0.0.99.hpp)
+set(CLUON_COMPLETE cluon-complete-v0.0.114.hpp)
 
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}" ${CMAKE_MODULE_PATH})
 
